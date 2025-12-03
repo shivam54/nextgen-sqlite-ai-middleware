@@ -1,0 +1,56 @@
+# Compiled files
+*.o
+*.exe
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Database files (generated)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Log files
+*.csv
+*.log
+*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build directories
+bld/
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# TPC-H generated data (can be regenerated)
+tpch_data/
+
+# Keep TPC-H databases for benchmarking (optional - uncomment to ignore)
+# tpch_default.db
+# tpch_ai.db
+
